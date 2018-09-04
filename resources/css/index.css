@@ -37,7 +37,15 @@ a {
     color: seashell;
 }
 
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
 .flex-container {
+    align-content: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -109,4 +117,9 @@ h2, h3, h4 {
 
 #contact {
     height: 200px;
+}
+
+footer {
+    text-align: left;
+    padding-left: 20px;
 }
